@@ -6,9 +6,7 @@ void setup() {
   const char* ssid = "name";     
   const char* password="password"; 
   const char* serverAddress = "http://255.255.0.0:8080/plant_m/connect"; 
-  // Serial init
   Serial.begin(115200);
-  // Wire init
   Wire.begin();
   // Power Management
   /*Wire.beginTransmission(0x68);
